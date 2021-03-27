@@ -1,0 +1,83 @@
+body {
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    text-align: right;
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+ul {
+    margin-left: 42%;
+}
+
+img {
+    margin-left: 300px;
+}
+
+p {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.imagato {
+    display: flex;
+    align-items: center;
+}
+
+.linkgato {
+    margin-left: 20px;
+}
+
+.imaperro {
+    display: flex;
+    align-items: center;
+}
+
+.linkperro {
+    margin-left: 20px;
+}
+
+.ginger {
+    display: flex;
+    align-items: center;
+}
+
+.linkginger {
+    margin-left: 20px;
+}
+
+.tommy {
+    display: flex;
+    align-items: center;
+}
+
+.linktommy {
+    margin-left: 20px;
+}
+
+.lucifer {
+    display: flex;
+    align-items: center;
+}
+
+.linklucifer {
+    margin-left: 20px;
+}
+
+.cachulo {
+    display: flex;
+    align-items: center;
+}
+
+.linkcachulo {
+    margin-left: 20px;
+}
