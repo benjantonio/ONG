@@ -1,3 +1,14 @@
+.InicioPágina {
+    text-align: right;
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
 h3,
 h2 {
     font-family: 'Fredoka One', cursive;
@@ -56,4 +67,8 @@ h2 {
 
 .linknina {
     margin-left: 20px;
+}
+
+img {
+    border-radius: 8px;
 }
