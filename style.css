@@ -3,7 +3,8 @@ body {
     margin-right: 0px;
     margin-bottom: 10px;
     margin-left: 0px;
-    background: linear-gradient(to bottom, rgb(255, 164, 89), rgb(199, 73, 73));
+    background-color: #19d2eb;
+    background: linear-gradient(to bottom, rgb(29, 202, 233), #d289cc);
 }
 
 .menu {
