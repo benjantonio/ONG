@@ -16,13 +16,6 @@ body {
     margin-left: 20px;
 }
 
-.fotosPerros {
-    border-top: 12px solid white;
-    border-left: 12px solid white;
-    border-right: 12px solid white;
-    border-bottom: 52px solid white;
-}
-
-.divPerro {
-    margin-left: 100px;
+img {
+    border-radius: 8px;
 }
