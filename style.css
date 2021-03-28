@@ -9,7 +9,7 @@ body {
 .menu {
     list-style: none;
     padding: 0;
-    background: linear-gradient(to bottom, rgb(203, 255, 255), rgb(48, 100, 167));
+    background: linear-gradient(to bottom, rgb(221, 145, 196), rgb(170, 21, 108));
     width: 50%;
     max-width: 100%;
     margin: auto;
@@ -78,8 +78,8 @@ p {
 }
 
 .alert-primary {
-    color: #000000;
-    background: linear-gradient(to bottom, rgb(29, 202, 233), white);
+    color: #ffffff;
+    background: linear-gradient(to bottom, rgb(10, 57, 65), rgb(113, 152, 179));
     border-color: #425f7a;
     font-weight: bolder;
     text-transform: uppercase;
