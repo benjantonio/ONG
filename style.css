@@ -6,6 +6,32 @@ body {
     background: linear-gradient(to bottom, rgb(29, 202, 233), white);
 }
 
+.menu {
+    list-style: none;
+    padding: 0;
+    background: linear-gradient(to bottom, rgb(236, 122, 192), rgb(173, 61, 149));
+    width: 50%;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background: #ff88e5;
+}
+
 h3,
 h2 {
     font-family: 'Fredoka One', cursive;
