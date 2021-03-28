@@ -9,10 +9,11 @@ body {
 .menu {
     list-style: none;
     padding: 0;
-    background: #092327;
-    width: 90%;
+    background: linear-gradient(to bottom, rgb(236, 122, 192), rgb(173, 61, 149));
+    width: 50%;
     max-width: 100%;
     margin: auto;
+    text-align: center;
 }
 
 .menu li a {
@@ -28,7 +29,7 @@ body {
 }
 
 .menu li a:hover {
-    background: #ef8354;
+    background: #ff88e5;
 }
 
 .container {
@@ -108,4 +109,4 @@ p {
 }
 
 
-/* ANIMACION MENU BOTONES
+/* ANIMACION MENU BOTONES */
