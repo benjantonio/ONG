@@ -1,36 +1,9 @@
-<<<<<<< HEAD
 body {
     margin-top: 0px;
     margin-right: 50px;
     margin-bottom: 10px;
     margin-left: 50px;
     background: linear-gradient(to bottom, rgb(29, 202, 233), white);
-}
-
-.menu {
-    list-style: none;
-    padding: 0;
-    background: linear-gradient(to bottom, rgb(236, 122, 192), rgb(173, 61, 149));
-    width: 50%;
-    max-width: 100%;
-    margin: auto;
-    text-align: center;
-}
-
-.menu li a {
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    display: block;
-}
-
-.menu li {
-    display: inline-block;
-    text-align: center;
-}
-
-.menu li a:hover {
-    background: #ff88e5;
 }
 
 h3,
@@ -73,61 +46,11 @@ p {
 .divcuerpo {
     height: 800px;
 }
-=======
-    body {
-        margin-top: 0px;
-        margin-right: 50px;
-        margin-bottom: 10px;
-        margin-left: 50px;
-        background: linear-gradient(to bottom, rgb(29, 202, 233), white);
-    }
-    
-    h3,
-    h2 {
-        font-family: 'Fredoka One', cursive;
-        text-align: center;
-    }
-    
-    ul {
-        margin-left: 42%;
-    }
-    
-    img {
-        margin-left: 300px;
-    }
-    
-    p {
-        margin-left: 150px;
-        margin-right: 150px;
-    }
-    
-    .imagato {
-        display: flex;
-        align-items: center;
-    }
-    
-    .linkgato {
-        margin-left: 20px;
-    }
-    
-    .imaperro {
-        display: flex;
-        align-items: center;
-    }
-    
-    .linkperro {
-        margin-left: 20px;
-    }
-    
-    .divcuerpo {
-        height: 800px;
-    }
-    
-    .alert-primary {
-        color: #000000;
-        background-color: #D9EDF7;
-        border-color: #BCE8F1;
-        font-weight: bolder;
-        text-transform: uppercase;
-    }
->>>>>>> 3911bddb70e980fc0e790ea436f340708877a424
+
+.alert-primary {
+    color: #000000;
+    background-color: #D9EDF7;
+    border-color: #BCE8F1;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
