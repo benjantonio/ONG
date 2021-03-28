@@ -1,15 +1,15 @@
 body {
     margin-top: 0px;
-    margin-right: 50px;
+    margin-right: 0px;
     margin-bottom: 10px;
-    margin-left: 50px;
-    background: linear-gradient(to bottom, rgb(29, 202, 233), white);
+    margin-left: 0px;
+    background: linear-gradient(to bottom, rgb(255, 164, 89), rgb(199, 73, 73));
 }
 
 .menu {
     list-style: none;
     padding: 0;
-    background: linear-gradient(to bottom, rgb(221, 145, 196), rgb(170, 21, 108));
+    background: linear-gradient(to bottom, rgb(71, 71, 71), rgb(24, 24, 24));
     width: 50%;
     max-width: 100%;
     margin: auto;
@@ -29,7 +29,8 @@ body {
 }
 
 .menu li a:hover {
-    background: #1e477c;
+    color: black;
+    background: #e47643;
 }
 
 .container {
@@ -78,9 +79,17 @@ p {
 }
 
 .alert-primary {
-    color: #ffffff;
-    background: linear-gradient(to bottom, rgb(10, 57, 65), rgb(113, 152, 179));
+    width: 30%;
+    max-width: 100%;
+    margin: 1% auto 2% auto;
+    text-align: center;
+    color: #1d1d1d;
+    background: linear-gradient(to bottom, #FFFFFF, #FFFFFF, #787878);
     border-color: #425f7a;
     font-weight: bolder;
     text-transform: uppercase;
+}
+
+.logo {
+    margin-left: 23%;
 }
