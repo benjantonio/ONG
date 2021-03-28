@@ -79,7 +79,7 @@ p {
 
 .alert-primary {
     color: #000000;
-    background: linear-gradient(to bottom, rgb(46, 73, 78), rgb(170, 164, 164));
+    background: linear-gradient(to bottom, rgb(29, 202, 233), white);
     border-color: #425f7a;
     font-weight: bolder;
     text-transform: uppercase;
