@@ -6,6 +6,36 @@ body {
     background: linear-gradient(to bottom, rgb(29, 202, 233), white);
 }
 
+.menu {
+    list-style: none;
+    padding: 0;
+    background: linear-gradient(to bottom, rgb(203, 255, 255), rgb(48, 100, 167));
+    width: 50%;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background: #1e477c;
+}
+
+.container {
+    text-align: right;
+}
+
 h3,
 h2 {
     font-family: 'Fredoka One', cursive;
@@ -49,8 +79,8 @@ p {
 
 .alert-primary {
     color: #000000;
-    background-color: #D9EDF7;
-    border-color: #BCE8F1;
+    background: linear-gradient(to bottom, rgb(46, 73, 78), rgb(170, 164, 164));
+    border-color: #425f7a;
     font-weight: bolder;
     text-transform: uppercase;
 }
