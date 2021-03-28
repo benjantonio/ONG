@@ -15,6 +15,14 @@ h2 {
     text-align: center;
 }
 
+.alert-primary {
+    color: #000000;
+    background-color: #D9EDF7;
+    border-color: #BCE8F1;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
 .ginger {
     display: flex;
     align-items: center;
