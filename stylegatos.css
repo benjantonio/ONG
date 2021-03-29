@@ -70,3 +70,30 @@ body {
 .divcuerpo {
     height: 800px;
 }
+
+.menu {
+    list-style: none;
+    padding: 0;
+    background: linear-gradient(to bottom, rgb(71, 71, 71), rgb(24, 24, 24));
+    width: 50%;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    color: black;
+    background: #e47643;
+}
