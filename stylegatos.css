@@ -1,7 +1,8 @@
 body {
     font-family: 'Bebas Neue', cursive;
     margin: 30px 20px 0px 20px;
-    background-color: #7fffd4;
+    background-color: #19d2eb;
+    background: linear-gradient(to bottom, rgb(29, 202, 233), #d289cc);
 }
 
 .container {
@@ -14,4 +15,58 @@ body {
 
 .content {
     margin-left: 20px;
+}
+
+.alert-primary {
+    color: #000000;
+    background-color: #D9EDF7;
+    border-color: #BCE8F1;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.fotosGatos {
+    border-left: 12px solid white;
+    border-right: 12px solid white;
+    border-top: 12px solid white;
+    border-bottom: 52px solid white;
+    box-shadow: 10px 10px;
+}
+
+.nombregato {
+    margin-top: 20px;
+}
+
+.table {
+    --bs-table-bg: white;
+    --bs-table-striped-color: #212529;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-active-color: #212529;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: #212529;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    vertical-align: top;
+    border-color: #dee2e6;
+}
+
+.tabladatos {
+    width: 300px;
+    margin-top: 10px;
+}
+
+.fondodatos {
+    background-color: rgb(77, 167, 241);
+}
+
+.titulotabla {
+    width: 300px;
+    background-color: rgb(241, 241, 241);
+    margin-top: 20px;
+}
+
+.divcuerpo {
+    height: 800px;
 }
