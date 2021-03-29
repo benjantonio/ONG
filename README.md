@@ -1,9 +1,7 @@
 # ONG 
 
 Benjamín Navarro
-
 Jocelyn Riquelme
-
 Francesca Ortega
 
 
