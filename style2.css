@@ -7,6 +7,8 @@ body {
     margin-right: 50px;
     margin-bottom: 10px;
     margin-left: 50px;
+    background-color: #19d2eb;
+    background: linear-gradient(to bottom, rgb(29, 202, 233), #d289cc);
 }
 
 h3,
@@ -60,7 +62,7 @@ h2 {
 }
 
 .flaca {
-    display: flex;
+    /*display: flex;*/
     align-items: center;
 }
 
@@ -79,4 +81,54 @@ h2 {
 
 img {
     border-radius: 8px;
+}
+
+.divcuerpo {
+    height: 800px;
+}
+
+.fotosGatos {
+    border-left: 12px solid white;
+    border-right: 12px solid white;
+    border-top: 12px solid white;
+    border-bottom: 52px solid white;
+    box-shadow: 10px 10px;
+}
+
+.nombregato {
+    margin-top: 20px;
+}
+
+.table {
+    --bs-table-bg: white;
+    --bs-table-striped-color: #212529;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-active-color: #212529;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: #212529;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    vertical-align: top;
+    border-color: #dee2e6;
+}
+
+.tabladatos {
+    width: 300px;
+    margin-top: 10px;
+}
+
+.fondodatos {
+    background-color: rgb(77, 167, 241);
+}
+
+.titulotabla {
+    width: 300px;
+    background-color: rgb(241, 241, 241);
+    margin-top: 20px;
+}
+
+.divcuerpo {
+    height: 800px;
 }
