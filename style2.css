@@ -1,0 +1,161 @@
+.InicioPágina {
+    text-align: right;
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    background-color: #19d2eb;
+    background: linear-gradient(to bottom, rgb(29, 202, 233), #d289cc);
+}
+
+h3,
+h2 {
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+}
+
+.alert-primary {
+    color: #000000;
+    background-color: #D9EDF7;
+    border-color: #BCE8F1;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.ginger {
+    display: flex;
+    align-items: center;
+}
+
+.linkginger {
+    margin-left: 20px;
+}
+
+.tommy {
+    display: flex;
+    align-items: center;
+}
+
+.linktommy {
+    margin-left: 20px;
+}
+
+.lucifer {
+    display: flex;
+    align-items: center;
+}
+
+.linklucifer {
+    margin-left: 20px;
+}
+
+.cachulo {
+    display: flex;
+    align-items: center;
+}
+
+.linkcachulo {
+    margin-left: 20px;
+}
+
+.flaca {
+    /*display: flex;*/
+    align-items: center;
+}
+
+.linkflaca {
+    margin-left: 20px;
+}
+
+.nina {
+    display: flex;
+    align-items: center;
+}
+
+.linknina {
+    margin-left: 20px;
+}
+
+img {
+    border-radius: 8px;
+}
+
+.divcuerpo {
+    height: 800px;
+}
+
+.fotosGatos {
+    border-left: 12px solid white;
+    border-right: 12px solid white;
+    border-top: 12px solid white;
+    border-bottom: 52px solid white;
+    box-shadow: 10px 10px;
+}
+
+.nombregato {
+    margin-top: 20px;
+}
+
+.table {
+    --bs-table-bg: white;
+    --bs-table-striped-color: #212529;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-active-color: #212529;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: #212529;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    vertical-align: top;
+    border-color: #dee2e6;
+}
+
+.tabladatos {
+    width: 300px;
+    margin-top: 10px;
+}
+
+.fondodatos {
+    background-color: rgb(77, 167, 241);
+}
+
+.titulotabla {
+    width: 300px;
+    background-color: rgb(241, 241, 241);
+    margin-top: 20px;
+}
+
+.divcuerpo {
+    height: 800px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    background: linear-gradient(to bottom, rgb(71, 71, 71), rgb(24, 24, 24));
+    width: 50%;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    color: black;
+    background: #e47643;
+}
