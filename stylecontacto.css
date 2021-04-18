@@ -1,0 +1,42 @@
+/*BODY*/
+body {
+    font-family: 'Bebas Neue', cursive;
+    margin: 30px 20px 0px 20px;
+    background-color: #19d2eb;
+    background: linear-gradient(to bottom, rgb(29, 202, 233), #d289cc);
+}
+
+/*------------------------header------------------------*/
+.altoheader{
+    height: 12vh;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    background: linear-gradient(to bottom, rgb(71, 71, 71), rgb(24, 24, 24));
+    width: 50%;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    color: black;
+    background: #e47643;
+}
+
+/*------------------------contacto------------------------*/
+
