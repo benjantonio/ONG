@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <!-- Fin Bootstrap -->
     <link rel="stylesheet" href="stylecontacto.css">
 </head>
+
 <body>
 
     <!--------------------------HEADER-------------------------->
@@ -24,9 +26,32 @@
     </header>
 
     <!--------------------------CONTACTO-------------------------->
-    <section>
-        
-
+    <section class="contacto">
+        <div class="container">
+            <form id="contact" action="" method="post">
+                <h3>Contacto</h3>
+                <h4>Dudas, consultas y si quieres adoptar!</h4>
+                <fieldset>
+                    <input placeholder="Nombre completo" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Rut o pasaporte" type="text" tabindex="2" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Email" type="email" tabindex="3" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Télefono (opcional)" type="tel" tabindex="4">
+                </fieldset>
+                <fieldset>
+                    <textarea placeholder="Escribe tu mensaje aquí..." tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                </fieldset>
+            </form>
+        </div>
     </section>
 </body>
+
 </html>
