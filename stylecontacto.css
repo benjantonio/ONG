@@ -19,7 +19,7 @@ body {
     list-style: none;
     padding: 0;
     background: linear-gradient(to bottom, rgb(71, 71, 71), rgb(24, 24, 24));
-    width: 50%;
+    width: 100vh;
     max-width: 100%;
     margin: auto;
     text-align: center;
@@ -67,30 +67,116 @@ body {
     background: rgba(0, 204, 255, 0);
     
 }
+
+
+/*--RESPONSIVE NIVEL 1--*/
+@media screen and (max-width: 2000px){
+    .mensajecontacto{
+        margin: 2vh 30vh 2vh 30vh;
+        background-image: url(Imagenes/fondohuellas.jpg);
+        background-color: #f1f1f1;
+        height: 16vh;
+        padding-top: 2vh;
+    }
     
-.mensajecontacto{
-    margin: 2vh 30vh 2vh 30vh;
-    background-image: url(Imagenes/fondohuellas.jpg);
-    background-color: #f1f1f1;
-    height: 13vh;
-    padding-top: 2vh;
+    .titulo-mensaje{
+        margin-top: 1vh;
+        text-align: center;
+        font-family: sans-serif;
+        color: #F96;
+    }
     
+    .mensaje{
+        margin: 0px 30px 10px 30px;
+        text-align: center;
+        font-family: sans-serif;
+        color: rgb(88, 88, 88);
+        font-size: 14px;
+    }
 }
 
-.titulo-mensaje{
-    text-align: center;
-    font-family: sans-serif;
-    color: #F96;
-}
 
-.mensaje{
-    text-align: center;
-    font-family: sans-serif;
-    color: rgb(88, 88, 88);
+
+
+/*--RESPONSIVE NIVEL 2--*/
+@media screen and (max-width: 850px){
+    .mensajecontacto{
+        margin: 2vh 2vh 2vh 2vh;
+        background-image: url(Imagenes/fondohuellas.jpg);
+        background-color: #f1f1f1;
+        height: 16vh;
+        padding-top: 2vh;
+    }
     
+    .titulo-mensaje{
+        margin-top: 0vh;
+        text-align: center;
+        font-family: sans-serif;
+        color: #F96;
+        font-size: 25px;
+    }
+    
+    .mensaje{
+        margin: 0px 30px 10px 30px;
+        text-align: center;
+        font-family: sans-serif;
+        color: rgb(88, 88, 88);
+        font-size: 14px;
+    }
+
+    .altoheader {
+        height: 15vh;
+    }
+
+    .menu {
+        width: 50vh;
+    }
+
+    .menu li a {
+        padding: 10px;
+
+    }
 }
 
 
+/*--RESPONSIVE NIVEL 3 (innecesarioxd)--*/
+@media screen and (max-width: 555px){
+    .mensajecontacto{
+        margin: 2vh 2vh 2vh 2vh;
+        background-image: url(Imagenes/fondohuellas.jpg);
+        background-color: #f1f1f1;
+        height: 18vh;
+        padding-top: 2vh;
+    }
+    
+    .titulo-mensaje{    
+        margin-top: 0vh;
+        text-align: center;
+        font-family: sans-serif;
+        color: #F96;
+        font-size: 20px;
+    }
+    
+    .mensaje{
+        margin: 0px 30px 10px 30px;
+        text-align: center;
+        font-family: sans-serif;
+        color: rgb(88, 88, 88);
+        font-size: 14px;
+    }
+
+    .altoheader {
+        height: 36vh;
+    }
+
+    .menu {
+        width: 20vh;
+    }
+
+    .menu li a {
+        padding: 10px;
+    }
+}
 
 .container {
     max-width: 400px;
