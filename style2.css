@@ -3,14 +3,167 @@
 }
 
 body {
-    margin-top: 0px;
+    margin-top: 30px;
     margin-right: 50px;
     margin-bottom: 10px;
     margin-left: 50px;
     background-color: #19d2eb;
-    background: linear-gradient(to bottom, rgb(29, 202, 233), #d289cc);
+    background-image: url(Imagenes/fondohuellas2.jpg);
+}
+/*------------CSS  MENÚ---------------*/
+/* Basic styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    font-family: sans-serif;
+  }
+  nav {
+    background: #222;
+    padding: 5px 20px;
+  }
+  ul {
+    list-style-type: none;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .logo a:hover {
+    text-decoration: none;
+  }
+  .menu li {
+    font-size: 16px;
+    padding: 15px 5px;
+    white-space: nowrap;
+  }
+  .logo a,
+  .toggle a {
+    font-size: 20px;
+  }
+  .button.secondary {
+    border-bottom: 1px #444 solid;
+  }
+  /* Mobile menu */
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .toggle {
+    order: 1;
+  }
+  .item.button {
+    order: 2;
+  }
+  .item {
+    width: 100%;
+    text-align: center;
+    order: 3;
+    display: none;
+  }
+  .item.active {
+    display: block;
+  }
+  /* Tablet menu */
+  @media all and (min-width: 600px) {
+    .menu {
+      justify-content: center;
+    }
+    .logo {
+      flex: 1;
+    }
+    .toggle {
+      flex: 1;
+      text-align: right;
+    }
+    .item.button {
+      width: auto;
+      order: 1;
+      display: block;
+    }
+    .toggle {
+      order: 2;
+    }
+    .button.secondary {
+      border: 0;
+    }
+    .button a {
+      padding: 7.5px 15px;
+      background: teal;
+      border: 1px #006d6d solid;
+    }
+    .button.secondary a {
+      background: transparent;
+    }
+    .button a:hover {
+      text-decoration: none;
+    }
+    .button:not(.secondary) a:hover {
+      background: #006d6d;
+      border-color: #005959;
+    }
+    .button.secondary a:hover {
+      color: #ddd;
+    }
+  }
+  /* Desktop menu */
+  @media all and (min-width: 900px) {
+    .item {
+      display: block;
+      width: auto;
+    }
+    .toggle {
+      display: none;
+    }
+    .logo {
+      order: 0;
+    }
+    .item {
+      order: 1;
+    }
+    .button {
+      order: 2;
+    }
+    .menu li {
+      padding: 15px 10px;
+    }
+    .menu li.button {
+      padding-right: 0;
+    }
+  }
+
+  .barraMenu{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
+  .barraMenu li{
+    margin-right: 5%;
+    margin-left: 10%;
+}
+
+.barraMenu ul{
+    margin-left: 29%;    
+}
+
+.logoOng{
+    margin-left: 5%;
+
+}
+
+
+@media (max-width: 992px) {
+    .barraMenu ul{
+        margin-left: 0;
+    }
+}
 h3,
 h2 {
     font-family: 'Fredoka One', cursive;
@@ -18,9 +171,10 @@ h2 {
 }
 
 .alert-primary {
-    color: #000000;
-    background-color: #D9EDF7;
-    border-color: #BCE8F1;
+    margin-top: 2vh;
+    color: #ffffff;
+    background-color: #fc8311;
+    border-color: #6e6e6e;
     font-weight: bolder;
     text-transform: uppercase;
 }
@@ -131,31 +285,4 @@ img {
 
 .divcuerpo {
     height: 800px;
-}
-
-.menu {
-    list-style: none;
-    padding: 0;
-    background: linear-gradient(to bottom, rgb(71, 71, 71), rgb(24, 24, 24));
-    width: 50%;
-    max-width: 100%;
-    margin: auto;
-    text-align: center;
-}
-
-.menu li a {
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    display: block;
-}
-
-.menu li {
-    display: inline-block;
-    text-align: center;
-}
-
-.menu li a:hover {
-    color: black;
-    background: #e47643;
 }
