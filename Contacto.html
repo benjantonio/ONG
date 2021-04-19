@@ -6,10 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <!-- Inicio Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <!-- Fin Bootstrap -->
@@ -47,45 +43,34 @@
         </div>
 
     <!--------------------------CONTACTO-------------------------->
-    <section class="marcomensaje">
-      <img class="portada1" src="Imagenes/portadas/portada1.jpg" alt="portada1">
-      <h4 class="titulo-mensaje">¿Quieres colaborar con nosotros?</h4>
-      <p class="mensaje">Puedes colaborar de la forma que más prefieras. Todo tipo de colaboración es bienvenida en ONG</p>
-    </section>
-
     <section class="contacto">
-      <div class="container">
-          <form id="contact" action="" method="post">
-              <h3>Contacto</h3>
-              <h4>Escribenos para donar o adoptar una mascota!</h4>
-              <fieldset>
-                  <input placeholder="Nombre completo" type="text" tabindex="1" required autofocus>
-              </fieldset>
-              <p class="tipoidentificacion">Tipo de Identificación:</p>
-              <fieldset>
-                  <select name="identificacion" required>
-                      <option value="">Seleccione</option >
-                      <option value="">Rut</option >
-                      <option value="">Pasaporte</option >
-                  </select>
-                  <input class="nidentificacion" placeholder="Numero de identificación" type="text" required>
-              </fieldset>
-              <fieldset>
-                  <input placeholder="Email" type="email" tabindex="3" required>
-              </fieldset>
-              <fieldset>
-                  <input placeholder="Télefono (opcional)" type="tel" tabindex="4">
-              </fieldset>
-              <fieldset>
-                  <textarea placeholder="Escribe tu mensaje aquí..." tabindex="5" required></textarea>
-              </fieldset>
-              <fieldset>
-                  <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
-                  <button class="btn btn-primary" name="reset" type="reset" id="contact-reset">Limpiar</button>
+        <div class="container">
+            <form id="contact" action="" method="post">
+                <h3>Contacto</h3>
+                <h4>Dudas, consultas y si quieres adoptar!</h4>
+                <fieldset>
+                    <input placeholder="Nombre completo" type="text" tabindex="1" required autofocus>
                 </fieldset>
-          </form>
-      </div>
-  </section>
+                <fieldset>
+                    <input placeholder="Rut o pasaporte" type="text" tabindex="2" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Email" type="email" tabindex="3" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Télefono (opcional)" type="tel" tabindex="4">
+                </fieldset>
+                <fieldset>
+                    <textarea placeholder="Escribe tu mensaje aquí..." tabindex="5" required></textarea>
+                </fieldset>
+                <div class="row">
+                    <button class="btn btn-primary" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
+                    <button class="btn btn-primary" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Limpiar</button>
+                </div>
+            </form>
+        </div>
+    </section>
 </body>
 
 </html>
+
