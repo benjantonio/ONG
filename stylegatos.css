@@ -2,7 +2,7 @@ body {
     font-family: 'Bebas Neue', cursive;
     margin: 30px 20px 0px 20px;
     background-color: #19d2eb;
-    background: linear-gradient(to bottom, rgb(29, 202, 233), #d289cc);
+    background-image: url(Imagenes/fondohuellas2.jpg);
 }
 /*------------CSS  MENÚ---------------*/
 /* Basic styling */
@@ -13,7 +13,6 @@ body {
   }
   body {
     font-family: sans-serif;
-    background: #f1f1f1;
   }
   nav {
     background: #222;
