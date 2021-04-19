@@ -302,6 +302,10 @@ body {
     font-size: 13px;
 }
 
+.tipoidentificacion{
+  margin-bottom: 0px;
+}
+
 fieldset {
     border: medium none !important;
     margin: 0 0 10px;

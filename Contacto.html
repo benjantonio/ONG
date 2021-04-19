@@ -54,32 +54,37 @@
     </section>
 
     <section class="contacto">
-        <div class="container">
-            <form id="contact" action="" method="post">
-                <h3>Contacto</h3>
-                <h4>Dudas, consultas y si quieres adoptar!</h4>
-                <fieldset>
-                    <input placeholder="Nombre completo" type="text" tabindex="1" required autofocus>
-                </fieldset>
-                <fieldset>
-                    <input placeholder="Rut o pasaporte" type="text" tabindex="2" required autofocus>
-                </fieldset>
-                <fieldset>
-                    <input placeholder="Email" type="email" tabindex="3" required>
-                </fieldset>
-                <fieldset>
-                    <input placeholder="Télefono (opcional)" type="tel" tabindex="4">
-                </fieldset>
-                <fieldset>
-                    <textarea placeholder="Escribe tu mensaje aquí..." tabindex="5" required></textarea>
-                </fieldset>
-                <div class="row">
-                    <button class="btn btn-primary" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
-                    <button class="btn btn-primary" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Limpiar</button>
-                </div>
-            </form>
-        </div>
-    </section>
+      <div class="container">
+          <form id="contact" action="" method="post">
+              <h3>Contacto</h3>
+              <h4>Escribenos para donar o adoptar una mascota!</h4>
+              <fieldset>
+                  <input placeholder="Nombre completo" type="text" tabindex="1" required autofocus>
+              </fieldset>
+              <p class="tipoidentificacion">Tipo de Identificación:</p>
+              <fieldset>
+                  <select name="identificacion">
+                      <option value="">Seleccione</option>
+                      <option value="">Rut</option>
+                      <option value="">Pasaporte</option>
+                  </select>
+                  <input class="nidentificacion" placeholder="Numero de identificación" type="text">
+              </fieldset>
+              <fieldset>
+                  <input placeholder="Email" type="email" tabindex="3" required>
+              </fieldset>
+              <fieldset>
+                  <input placeholder="Télefono (opcional)" type="tel" tabindex="4">
+              </fieldset>
+              <fieldset>
+                  <textarea placeholder="Escribe tu mensaje aquí..." tabindex="5" required></textarea>
+              </fieldset>
+              <fieldset>
+                  <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+              </fieldset>
+          </form>
+      </div>
+  </section>
 </body>
 
 </html>
