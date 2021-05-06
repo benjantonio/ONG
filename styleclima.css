@@ -25,6 +25,7 @@ body {
     box-sizing: border-box;
     padding: 0;
   }
+
   body {
     font-family: sans-serif;
   }
@@ -171,6 +172,10 @@ body {
     .barraMenu ul{
         margin-left: 0;
     }
+}
+
+.navbar{
+  padding-right: 50vh;
 }
 /*----------------------------FIN MENÚ-------------------------*/
 

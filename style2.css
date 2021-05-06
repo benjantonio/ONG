@@ -286,3 +286,7 @@ img {
 .divcuerpo {
     height: 800px;
 }
+
+.navbar{
+  padding-right: 50vh;
+}

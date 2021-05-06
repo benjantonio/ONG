@@ -173,6 +173,10 @@ body {
         margin-left: 0;
     }
 }
+
+.navbar{
+  padding-right: 50vh;
+}
 /*----------------------------FIN MENÚ-------------------------*/
 
 /*--RESPONSIVE NIVEL 1--*/

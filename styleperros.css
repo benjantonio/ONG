@@ -246,3 +246,7 @@ img {
     color: black;
     background: #e47643;
 }
+
+.navbar{
+  padding-right: 50vh;
+}
